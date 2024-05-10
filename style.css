@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header  */
+.first {
+  background-color: #3d7bca;
+}
+.up-nav {
+  max-width: 80vw;
+  background-color: #3d7bca;
+  height: 7vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: middle;
+  margin: auto;
+}
+.num {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  font-weight: 500;
+}
+.num p {
+  padding: 0 20px;
+}
+.btn {
+  padding: 10px 20px;
+  font-weight: 600;
+  color: #3d7bca;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80vw;
+  margin: auto;
+  height: 70px;
+  padding: 16px 0;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li {
+  padding: 0 20px;
+}
+
+/* Hero Section  */
+.hero-section {
+  background-color: #3d7bca;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.hero {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  color: white;
+}
+.hero h2 {
+  font-size: 60px;
+}
+.hero img {
+  width: 500px;
+  height: 500px;
+}
+
+/* .stew-section {
+  width: 80vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 30px 0;
+} */
+.stew {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 80vw;
+  padding: 50px 0;
+}
+.stew h2,
+h3 {
+  font-size: 40px;
+  color: #3d7bca;
+  padding-bottom: 10px;
+}
+.web-section {
+  background-color: #3d7bca;
+  align-items: center;
+  justify-content: center;
+}
+.web {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80vw;
+  margin: auto;
+  color: white;
+}
+.web-image img {
+  width: 500px;
+  height: 500px;
+  padding: 0 50px;
+}
+.web-desc {
+  padding: 0 50px;
+  margin: auto;
+}
+.web-desc h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.web-desc p {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.social-section {
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80vw;
+  margin: auto;
+}
+
+/* Package Section */
+
+.package-section {
+  max-width: 80vw;
+  margin: auto;
+}
+.package-section h2 {
+  text-align: center;
+  font-size: 45px;
+  color: #3d7bca;
+}
+.pack-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+}
+.package {
+  margin: 30px;
+  padding: 20px;
+  border: #3365a7 solid 2px;
+  border-radius: 10px;
+  text-align: center;
+}
+.package h3 {
+  font-size: 35px;
+  text-align: center;
+}
+.package ul li {
+  list-style: none;
+  padding: 5px 0;
+  font-size: 17px;
+}
+.mid-package {
+  background-color: #3d7bca;
+  color: white;
+}
+.mid-package h3 {
+  color: white;
+}
+
+/* Call to Action */
+.call-to-action {
+  background-color: #3d7bca;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.action h2 {
+  color: white;
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #c6d4e6;
+
+  padding: 30px;
+}
+.footer {
+  max-width: 80vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.ft {
+  padding: 20px;
+}
+.ft h2 {
+  font-size: 27px;
+  padding-bottom: 10px;
+}
+.know ul li {
+  list-style: none;
+  padding: 5px 0;
+  font-size: 17px;
+  font-weight: 500;
+  color: #3d7bca;
+}
+.know ul li a {
+  text-decoration: none;
+}
+.touch p {
+  padding: 5px 0;
+}
+.copy {
+  color: #3365a7;
+  text-align: center;
+  font-weight: 600;
+}
+.separation {
+  background-color: gray;
+  height: 3px;
+}
